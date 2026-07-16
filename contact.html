@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Bluegrass Handyman Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <h1>🔧 Bluegrass Handyman Services</h1>
+            </div>
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li class="dropdown">
+                        <a href="services.html">Services ▾</a>
+                        <div class="dropdown-content">
+                            <a href="services.html#drywall">Drywall Repair</a>
+                            <a href="services.html#painting">Painting</a>
+                            <a href="services.html#flooring">Flooring Installation</a>
+                            <a href="services.html#deck">Deck & Fence</a>
+                            <a href="services.html#fixtures">Light Fixtures</a>
+                            <a href="services.html#plumbing">Minor Plumbing</a>
+                            <a href="services.html#assembly">Furniture Assembly</a>
+                            <a href="services.html#mounting">TV & Picture Mounting</a>
+                            <a href="services.html#trim">Trim & Molding</a>
+                            <a href="services.html#door">Door Repair</a>
+                            <a href="services.html#cabinet">Cabinet Installation</a>
+                            <a href="services.html#gutter">Gutter Cleaning</a>
+                            <a href="services.html#pressure">Pressure Washing</a>
+                            <a href="services.html#minor">Electrical Minor Work</a>
+                        </div>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h2>Contact Us</h2>
+        <p>Get in touch for a free estimate or to schedule your project</p>
+    </section>
+
+    <!-- Contact Content -->
+    <section class="content-section">
+        <div class="contact-page-grid">
+            <!-- Contact Form -->
+            <div class="contact-form-section">
+                <h3 style="color: #2c5aa0; margin-bottom: 1.5rem;">Send Us a Message</h3>
+                <form action="mailto:info@bluegrasshandyman.com" method="post" enctype="text/plain">
+                    <div class="form-group">
+                        <label for="name">Full Name *</label>
+                        <input type="text" id="name" name="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email Address *</label>
+                        <input type="email" id="email" name="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number *</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="city">Preferred Service Area</label>
+                        <select id="city" name="city">
+                            <option value="">Select Your City</option>
+                            <option value="Lexington">Lexington</option>
+                            <option value="Richmond">Richmond</option>
+                            <option value="Georgetown">Georgetown</option>
+                            <option value="Nicholasville">Nicholasville</option>
+                            <option value="Wilmore">Wilmore</option>
+                            <option value="Versailles">Versailles</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject">Subject</label>
+                        <select id="subject" name="subject">
+                            <option value="Quote Request">Request a Quote</option>
+                            <option value="Schedule Service">Schedule Service</option>
+                            <option value="Question">General Question</option>
+                            <option value="Emergency">Urgent Repair Needed</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Your Message *</label>
+                        <textarea id="message" name="message" placeholder="Describe your project or question..." required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+                <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+                    * We typically respond within 24 hours on business days.
+                </p>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h3 style="color: #2c5aa0; margin-bottom: 1.5rem;">Business Information</h3>
+                
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: #4a89dc;">📍 Address</h4>
+                    <p>123 Main St<br>Lexington, KY 40507</p>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: #4a89dc;">📞 Phone & Email</h4>
+                    <p><strong>Phone:</strong> <a href="tel:8595550199" style="color: #2c5aa0;">(859) 555-0199</a></p>
+                    <p><strong>Email:</strong> <a href="mailto:info@bluegrasshandyman.com" style="color: #2c5aa0;">info@bluegrasshandyman.com</a></p>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: #4a89dc;">🕐 Business Hours</h4>
+                    <div class="business-hours">
+                        <table>
+                            <tr><td>Monday</td><td>7:00 AM - 6:00 PM</td></tr>
+                            <tr><td>Tuesday</td><td>7:00 AM - 6:00 PM</td></tr>
+                            <tr><td>Wednesday</td><td>7:00 AM - 6:00 PM</td></tr>
+                            <tr><td>Thursday</td><td>7:00 AM - 6:00 PM</td></tr>
+                            <tr><td>Friday</td><td>7:00 AM - 6:00 PM</td></tr>
+                            <tr><td>Saturday</td><td>8:00 AM - 4:00 PM</td></tr>
+                            <tr><td>Sunday</td><td>Closed</td></tr>
+                        </table>
+                    </div>
+                </div>
+
+                <div style="margin-bottom: 2rem;">
+                    <h4 style="color: #4a89dc;">📱 Emergency Service</h4>
+                    <p>For urgent repairs outside business hours, please leave a voicemail and we'll return your call as soon as possible.</p>
+                </div>
+
+                <div>
+                    <h4 style="color: #4a89dc;">🗺️ Serving These Areas</h4>
+                    <p style="font-size: 0.95rem;">
+                        • Lexington • Richmond • Georgetown<br>
+                        • Nicholasville • Wilmore • Versailles
+                    </p>
+                    <p style="margin-top: 1rem; font-size: 0.9rem; color: #666;">
+                        * Travel fees may apply for locations beyond these cities.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Map Placeholder -->
+        <div style="margin-top: 3rem; background: white; padding: 2rem; border-radius: 10px; box-shadow: 0 5px 15px rgba(0,0,0,0.1);">
+            <h3 style="color: #2c5aa0; margin-bottom: 1rem; text-align: center;">Find Us in Lexington</h3>
+            <div style="background: #f5f5f5; height: 300px; border-radius: 8px; display: flex; align-items: center; justify-content: center; color: #666;">
+                <div style="text-align: center;">
+                    <p style="font-size: 3rem;">🗺️</p>
+                    <p>Google Maps Integration</p>
+                    <p style="font-size: 0.9rem; margin-top: 0.5rem;">Embed your Google Maps location here using the iframe code from maps.google.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-container">
+            <div class="footer-section">
+                <h4>🔧 Bluegrass Handyman Services</h4>
+                <p>Quality home repairs and improvements across Central Kentucky since 2015.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Contact Us</h4>
+                <ul class="contact-info">
+                    <li>📞 Phone: <strong>(859) 555-0199</strong></li>
+                    <li>✉️ Email: <strong>info@bluegrasshandyman.com</strong></li>
+                    <li>📍 Office: 123 Main St, Lexington, KY 40507</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Service Areas</h4>
+                <ul class="contact-info">
+                    <li>Lexington • Richmond • Georgetown</li>
+                    <li>Nicholasville • Wilmore • Versailles</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Hours</h4>
+                <ul class="contact-info">
+                    <li>Monday - Friday: 7:00 AM - 6:00 PM</li>
+                    <li>Saturday: 8:00 AM - 4:00 PM</li>
+                    <li>Sunday: Closed</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2026 Bluegrass Handyman Services. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
